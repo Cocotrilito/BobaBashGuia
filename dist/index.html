@@ -31,7 +31,7 @@
       <div class="hero-copy">
         <div class="eyebrow">GUÍA PREVIA · BOBA BASH QUITO 2026</div>
         <h1>Tu primera web,<br /><span>antes del evento.</span></h1>
-        <p class="lede">No necesitas experiencia. Elige una idea, sigue la ruta que corresponda a tu nivel y envía una página web hecha por ti.</p>
+        <p class="lede">No necesitas experiencia. Aprende lo esencial, crea una página que presente quién eres y envía una web que puedas explicar con tus propias palabras.</p>
         <div class="hero-actions">
           <a class="button primary" href="#rutas">Empezar desde cero <span>→</span></a>
           <a class="button ghost" href="downloads/boba-starter.zip" download>Descargar plantilla <span>↓</span></a>
@@ -75,6 +75,23 @@
         <p>No tienes que completar las tres. Abre la que mejor describa lo que sabes hoy.</p>
       </div>
 
+      <div class="mission-card">
+        <div class="mission-icon" aria-hidden="true">👤</div>
+        <div>
+          <p class="kicker">TU MISIÓN</p>
+          <h3>Construye una página que responda: “¿Quién soy?”</h3>
+          <p>Preséntate con tu nombre, tus intereses, algo que te guste crear o aprender y un detalle que te haga único. El 24 de octubre tendrás la oportunidad de mostrarla y contar cómo la construiste.</p>
+        </div>
+      </div>
+
+      <div class="honor-card">
+        <div class="honor-label">IMPORTANTE</div>
+        <div>
+          <h3>Hazla tú: no uses inteligencia artificial.</h3>
+          <p>No uses ChatGPT, Copilot, Claude u otra IA para generar el código, los textos o el diseño. Sí puedes mirar los videos, consultar documentación, buscar ejemplos y pedir ayuda a una persona. No buscamos una web perfecta: buscamos una web que entiendas y puedas explicar.</p>
+        </div>
+      </div>
+
       <div class="level-picker" role="tablist" aria-label="Niveles de la guía">
         <button class="level-card active" role="tab" aria-selected="true" aria-controls="level-zero" data-level="zero">
           <span class="level-chip">NIVEL 0</span><b>Nunca he programado</b><small>Instalamos todo y empezamos juntos.</small>
@@ -90,7 +107,7 @@
       <div class="level-panel active" id="level-zero" role="tabpanel">
         <div class="panel-intro">
           <div><span>Ruta cero</span><h3>De una carpeta vacía a una web real</h3></div>
-          <p>Tiempo estimado: 60–90 minutos. Necesitas una laptop, conexión a internet y una idea sencilla.</p>
+          <p>Tiempo estimado: 90–120 minutos. Necesitas una laptop, conexión a internet y ganas de experimentar.</p>
         </div>
 
         <article class="step-card">
@@ -107,6 +124,30 @@
         <article class="step-card">
           <div class="step-index">2</div>
           <div class="step-content full">
+            <h3>Mira estos capítulos y prueba cada cosa</h3>
+            <p>No necesitas ver un curso de cinco horas completo. Mira únicamente estos capítulos de freeCodeCamp Español. Pausa el video, escribe los ejemplos tú mismo y cambia algo antes de continuar.</p>
+            <div class="video-grid">
+              <a class="video-card" href="https://www.youtube.com/watch?v=XqFR2lqBYPs&amp;t=652s" target="_blank" rel="noopener">
+                <span class="video-play">▶</span><small>4 MIN · DESDE 10:52</small><b>Crear tu primer archivo HTML</b><em>Abre el editor y entiende dónde se escribe el código.</em>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=XqFR2lqBYPs&amp;t=922s" target="_blank" rel="noopener">
+                <span class="video-play">▶</span><small>21 MIN · DESDE 15:22</small><b>Etiquetas, títulos y párrafos</b><em>Aprende qué significan las piezas que vas a utilizar.</em>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=XqFR2lqBYPs&amp;t=3072s" target="_blank" rel="noopener">
+                <span class="video-play">▶</span><small>13 MIN · DESDE 51:12</small><b>Imágenes y enlaces</b><em>Añade contenido propio y conecta otra página.</em>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=XqFR2lqBYPs&amp;t=8591s" target="_blank" rel="noopener">
+                <span class="video-play">▶</span><small>18 MIN · DESDE 2:23:11</small><b>Archivo CSS y clases</b><em>Comprende cómo se aplican colores, tamaños y estilos.</em>
+              </a>
+            </div>
+            <div class="tip"><b>No mires pasivamente.</b> Después de cada capítulo, escribe una etiqueta o regla sin copiarla y comprueba qué cambia en el navegador.</div>
+            <label class="task"><input type="checkbox" data-task="videos" /><span>Vi los capítulos y probé los ejemplos</span></label>
+          </div>
+        </article>
+
+        <article class="step-card">
+          <div class="step-index">3</div>
+          <div class="step-content full">
             <h3>Crea la carpeta y los archivos</h3>
             <ol>
               <li>Crea una carpeta llamada <code>mi-web</code>.</li>
@@ -121,10 +162,10 @@
         </article>
 
         <article class="step-card code-step">
-          <div class="step-index">3</div>
+          <div class="step-index">4</div>
           <div class="step-content full">
-            <h3>Pega tu primera estructura HTML</h3>
-            <p>HTML define lo que aparece: títulos, textos, botones e imágenes. Copia esto dentro de <code>index.html</code>.</p>
+            <h3>Usa esta base y conviértela en tu presentación</h3>
+            <p>HTML define lo que aparece: títulos, textos, botones e imágenes. Puedes partir de esta estructura, pero debes reemplazar <strong>cada texto marcado</strong> y entender para qué sirve cada etiqueta.</p>
             <div class="code-wrap">
               <button class="copy-button" data-copy="htmlCode">Copiar</button>
               <pre><code id="htmlCode">&lt;!DOCTYPE html&gt;
@@ -138,23 +179,26 @@
 &lt;body&gt;
   &lt;main class="tarjeta"&gt;
     &lt;p class="etiqueta"&gt;HECHO EN QUITO 🇪🇨&lt;/p&gt;
-    &lt;h1&gt;¡Hola! Soy Tu Nombre 👋&lt;/h1&gt;
-    &lt;p&gt;Me interesa la tecnología, la música y crear cosas nuevas.&lt;/p&gt;
+    &lt;h1&gt;¡Hola! Soy [TU NOMBRE] 👋&lt;/h1&gt;
+    &lt;p&gt;Soy de [TU CIUDAD] y me interesa [TUS INTERESES].&lt;/p&gt;
 
-    &lt;h2&gt;Mi idea&lt;/h2&gt;
-    &lt;p&gt;Esta página trata sobre...&lt;/p&gt;
+    &lt;h2&gt;Lo que me gusta crear o aprender&lt;/h2&gt;
+    &lt;p&gt;[CUÉNTANOS ALGO REAL SOBRE TI EN 2 O 3 FRASES].&lt;/p&gt;
 
-    &lt;a href="https://hackclub.com" target="_blank"&gt;Conoce Hack Club&lt;/a&gt;
+    &lt;h2&gt;Un dato sobre mí&lt;/h2&gt;
+    &lt;p&gt;[ESCRIBE ALGO CURIOSO, DIVERTIDO O IMPORTANTE PARA TI].&lt;/p&gt;
+
+    &lt;a href="[UN ENLACE QUE TE REPRESENTE]" target="_blank"&gt;Conoce algo que me gusta&lt;/a&gt;
   &lt;/main&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
             </div>
-            <label class="task"><input type="checkbox" data-task="html" /><span>Pegué el HTML y cambié el texto por algo mío</span></label>
+            <label class="task"><input type="checkbox" data-task="html" /><span>Reemplacé todos los corchetes con información real sobre mí</span></label>
           </div>
         </article>
 
         <article class="step-card code-step">
-          <div class="step-index">4</div>
+          <div class="step-index">5</div>
           <div class="step-content full">
             <h3>Dale estilo con CSS</h3>
             <p>CSS controla los colores, tamaños y espacios. Copia esto dentro de <code>style.css</code>.</p>
@@ -205,7 +249,7 @@ a {
         </article>
 
         <article class="step-card">
-          <div class="step-index">5</div>
+          <div class="step-index">6</div>
           <div class="step-content full">
             <h3>Ábrela y comprueba que funcione</h3>
             <p>Guarda ambos archivos con <kbd>Ctrl</kbd> + <kbd>S</kbd>. Luego abre la carpeta <code>mi-web</code> y haz doble clic en <code>index.html</code>. Se abrirá en tu navegador.</p>
@@ -228,7 +272,7 @@ a {
           <article><span>05</span><h3>Versión celular</h3><p>Reduce el ancho del navegador. Nada debería salirse de la pantalla.</p><label class="task"><input type="checkbox" data-task="mobile" /><span>Listo</span></label></article>
           <article><span>06</span><h3>Detalle sorpresa</h3><p>Prueba un efecto <code>:hover</code>, una animación o una sección inesperada.</p><label class="task"><input type="checkbox" data-task="surprise" /><span>Listo</span></label></article>
         </div>
-        <div class="tip wide"><b>No entregues la plantilla sin cambiarla.</b> La web debe reflejar una idea, historia o interés propio. Tu versión puede ser sencilla, pero debe sentirse tuya.</div>
+        <div class="tip wide"><b>No entregues la plantilla sin cambiarla.</b> La web debe presentar quién eres mediante una idea, historia o interés propio. Tu versión puede ser sencilla, pero debes entenderla y poder explicarla sin ayuda.</div>
       </div>
 
       <div class="level-panel" id="level-ready" role="tabpanel" hidden>
@@ -289,8 +333,9 @@ a {
       <div class="submit-copy">
         <p class="kicker">ÚLTIMO PASO</p>
         <h2>Envía tu proyecto.</h2>
-        <p>Ten todo preparado antes de abrir el formulario. Los nombres exactos de algunos campos pueden aparecer en inglés.</p>
+        <p>Ten todo preparado antes de abrir el formulario. Los nombres exactos de algunos campos pueden aparecer en inglés. Cuando termines, envíanos también el enlace o la carpeta de tu proyecto por correo.</p>
         <a class="button primary large" href="https://bash.hackclub.com/submit" target="_blank" rel="noopener">Abrir formulario oficial <span>↗</span></a>
+        <a class="text-link submit-email" href="mailto:cocotrilito@outlook.com?subject=Mi%20web%20para%20Boba%20Bash%20Quito">Enviar copia a cocotrilito@outlook.com ↗</a>
         <p class="microcopy">El formulario pertenece a Hack Club y se abre en otra pestaña.</p>
       </div>
       <div class="submit-checklist">
@@ -301,6 +346,7 @@ a {
         <label><input type="checkbox" data-task="submit-shot" /><span><b>Captura</b> de la página funcionando.</span></label>
         <label><input type="checkbox" data-task="submit-story" /><span><b>Descripción:</b> qué hiciste, por qué y qué aprendiste.</span></label>
         <label><input type="checkbox" data-task="submit-person" /><span><b>Tus datos</b> solicitados en el formulario.</span></label>
+        <label><input type="checkbox" data-task="submit-email-copy" /><span><b>Copia enviada</b> a <code>cocotrilito@outlook.com</code> con tu enlace o proyecto adjunto.</span></label>
       </div>
     </section>
 
@@ -310,7 +356,7 @@ a {
         <h2>No tienes que resolverlo solo.</h2>
         <p>Envíanos una captura del error y dinos en qué paso estás. Evita mandar únicamente “no funciona”; cuanta más información tengamos, más rápido podremos ayudarte.</p>
       </div>
-      <a class="button dark" href="mailto:quito@haven.hackclub.com?subject=Ayuda%20con%20mi%20web%20de%20Boba%20Bash">Pedir ayuda por correo <span>→</span></a>
+      <a class="button dark" href="mailto:cocotrilito@outlook.com?subject=Ayuda%20con%20mi%20web%20de%20Boba%20Bash">Pedir ayuda por correo <span>→</span></a>
     </section>
 
     <section class="section faq-section">
@@ -318,6 +364,7 @@ a {
       <div class="faq-list">
         <details><summary>¿Tiene que ser una página complicada?<span>+</span></summary><p>No. Una página sencilla, funcional y personalizada es suficiente. Una idea pequeña terminada vale más que una enorme incompleta.</p></details>
         <details><summary>¿Puedo usar una plantilla?<span>+</span></summary><p>Sí, puedes usar nuestra base, pero debes cambiar el contenido, los colores y la idea para que el resultado sea realmente tuyo.</p></details>
+        <details><summary>¿Puedo usar inteligencia artificial?<span>+</span></summary><p>No para generar el código, los textos ni el diseño. Queremos conocer tu trabajo y que puedas explicar cada parte. Puedes aprender con los videos, documentación, búsquedas y ayuda de otras personas.</p></details>
         <details><summary>¿Necesito comprar algo?<span>+</span></summary><p>No. VS Code, GitHub Pages y el formulario de Hack Club pueden utilizarse gratuitamente.</p></details>
         <details><summary>¿Qué pasa si ya envié mi proyecto?<span>+</span></summary><p>Guarda una copia de tu código y el enlace. El 24 de octubre llevarás tu laptop para mostrarlo y mejorarlo durante Boba Bash Quito.</p></details>
       </div>

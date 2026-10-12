@@ -1,9 +1,13 @@
 PLANTILLA · BOBA BASH QUITO 2026
 
 1. Abre esta carpeta con Visual Studio Code.
-2. Personaliza los textos de index.html.
-3. Cambia al menos dos colores en style.css.
-4. Guarda y abre index.html en tu navegador.
-5. Sigue la guía de Boba Bash para tomar tu captura y enviar el proyecto.
+2. Mira los capítulos de video indicados en la guía y prueba los ejemplos.
+3. Reemplaza TODOS los textos entre corchetes de index.html con información real sobre ti.
+4. Cambia al menos dos colores en style.css.
+5. Guarda y abre index.html en tu navegador.
+6. Asegúrate de entender cada parte y poder explicar lo que hiciste.
+7. Sigue la guía para tomar tu captura, completar el formulario y enviar una copia a cocotrilito@outlook.com.
+
+No uses inteligencia artificial para generar el código, los textos o el diseño. Puedes usar videos, documentación, búsquedas y ayuda de una persona.
 
 Haz algo pequeño, propio y terminado. ¡Nos vemos el 24 de octubre!
